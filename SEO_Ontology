@@ -1,0 +1,2395 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20/"
+     xml:base="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-20="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OptimizesGoogleBusinessProfileOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OptimizesGoogleBusinessProfileOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalSEO"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TargetLocalAudienceFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TargetLocalAudienceFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalSEO"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#establishesSEOFriendlyStructureFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#establishesSEOFriendlyStructureFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalSEO"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#fixDuplicateContentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#fixDuplicateContentOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalSEO"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#improvesSpeedOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#improvesSpeedOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalSEO"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#increasesLocalVisibilityOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#increasesLocalVisibilityOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalSEO"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#HomePage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ProductPage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#involvesPressReleaseFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#involvesPressReleaseFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ArticlePage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ProductPage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizeContentFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizeContentFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizeTitletagFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizeTitletagFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SERPFeatures"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesInternalLinkingFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesInternalLinkingFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesPageSpeedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesPageSpeedFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesSchemaMarkupFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesSchemaMarkupFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesURLsFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesURLsFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesUserEngagementFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesUserEngagementFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesaTitleTagFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizesaTitleTagFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#performVideoSubmissionFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#performVideoSubmissionFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ArticlePage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ProductPage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#postsBlogFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#postsBlogFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CategoryPage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#HomePage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#submitArticlesFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#submitArticlesFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ArticlePage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ProductPage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#utilizesSocialNetworkingFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#utilizesSocialNetworkingFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CategoryPage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#HomePage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#FAQSections -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#FAQSections">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#FAQPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SERP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SERP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRankings"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ageGroup -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ageGroup">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TrafficDemographics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#anchorText -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#anchorText">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EditorialLinks"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#articleContent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#articleContent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ArticlePage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#articleTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#articleTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ArticlePage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#articles -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#articles">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InformationalWebsite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#authorName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#authorName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ArticlePage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#authority -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#authority">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#backLinkQuality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#backLinkQuality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#backlinkTypes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#backlinkTypes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalytics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#bounceRate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#bounceRate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#callToAction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#callToAction">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LandingPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#categoryDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#categoryDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CategoryPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#categoryName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#categoryName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CategoryPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#categoryPage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#categoryPage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CategoryPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#companyHistory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#companyHistory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AboutUsPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#contactForm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#contactForm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContactPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#contactInformation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#contactInformation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContactPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#contentQuality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#contentQuality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContentAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#contentRelevance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#contentRelevance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContentAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#conversionRatio -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#conversionRatio">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OrganicTrafficConversions"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#directoryCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#directoryCategory">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DirectoryLinks"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#domainAuthority -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#domainAuthority">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EditorialLinks"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#domainCategories -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#domainCategories">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ReferringDomains"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#domainName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#domainName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ReferringDomains"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#domainRating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#domainRating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#errorMassage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#errorMassage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#404ErrorPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#eventDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#eventDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EventPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#eventDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#eventDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EventPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#eventLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#eventLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EventPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#eventTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#eventTitle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EventPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#featuredPage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#featuredPage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#HomePage"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#forumCategories -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#forumCategories">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#forumTopic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#forumTopic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumAndCommentLinks"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#genderSegment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#genderSegment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TrafficDemographics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#generatedBacklink -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#generatedBacklink">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#groups -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#groups">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialNetworkingWebsites"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#inboundTraffic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#inboundTraffic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#indexedPagesURLs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#indexedPagesURLs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IndexedPages"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#instructer -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#instructer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EducationalWebsites"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keyword -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keyword">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRankings"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keywordDensity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keywordDensity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keywordRankingValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keywordRankingValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRanking"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keywordsCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keywordsCount">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keywordsTraffic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#keywordsTraffic">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#latestUpdate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#latestUpdate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#HomePage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#leadCaptureForm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#leadCaptureForm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LandingPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#linkingValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#linkingValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingStrategies"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#linkingWebsites -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#linkingWebsites">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#links -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#links">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Follow"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#loginForm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#loginForm">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LoginPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#loginOptions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#loginOptions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LoginPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#mapLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#mapLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContactPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#missionStatement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#missionStatement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AboutUsPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#mobileOptimization -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#mobileOptimization">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#networks -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#networks">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#numberOfBacklinks -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#numberOfBacklinks">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedArticleSubmission -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedArticleSubmission">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedBlogPost -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedBlogPost">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedContent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedContent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedHeader -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedHeader">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedInternalLinking -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedInternalLinking">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedMetaDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedMetaDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedPageSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedPageSpeed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedSERP -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedSERP">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SERPFeatures"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedSchemaMarkup -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedSchemaMarkup">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedTitleTag -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedTitleTag">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedURLs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#optimizedURLs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#organicCompetitors -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#organicCompetitors">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#organicTraffic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#organicTraffic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OrganicTraffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#pageLoadTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#pageLoadTime">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#paidTraffic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#paidTraffic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PaidTraffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#performenceScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#performenceScore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#WebsitePerformanceStatus"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#platforn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#platforn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialNetworkingWebsites"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#policyEffectiveDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#policyEffectiveDate">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrivacyPolicyPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#projectShowcased -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#projectShowcased">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PortfolioWebsites"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#promotionalOffers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#promotionalOffers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LandingPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#publishers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#publishers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#rankingPosition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#rankingPosition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRankings"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#redirectURL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#redirectURL">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#404ErrorPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#referringDomainCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#referringDomainCount">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ReferringDomains"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#referringWebsites -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#referringWebsites">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#relatedProducts -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#relatedProducts">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CategoryPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#relatedTopics -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#relatedTopics">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#FAQPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#relevance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#relevance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#rootDomain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#rootDomain">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ReferringDomains"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#searchQuery -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#searchQuery">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SearchResultPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#searchResult -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#searchResult">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SearchResultPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#searchTraffic -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#searchTraffic">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#shippingRegions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#shippingRegions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EcommerceWebsite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#socialNetworkDistribution -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#socialNetworkDistribution">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#sponsers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#sponsers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PromotionalLinks"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#subjects -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#subjects">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EducationalWebsites"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#suggestedLinks -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#suggestedLinks">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#404ErrorPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#targetKeyword -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#targetKeyword">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordAnalysis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#teamInformation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#teamInformation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AboutUsPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#threadTopics -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#threadTopics">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumPage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topCategories -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topCategories">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topPublishers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topPublishers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topReferrals -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topReferrals">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topTopics -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topTopics">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topicsCoverd -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#topicsCoverd">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InformationalWebsite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#trafficSources -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#trafficSources">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#trafficVolume -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#trafficVolume">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#users -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#users">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialNetworkingWebsites"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#visibilityScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#visibilityScore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SearchVisibility"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#visitValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#visitValue">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#volume -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#volume">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#websiteURL -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#websiteURL">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AboutUsPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AboutUsPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Analytics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Analytics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AnchorText -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AnchorText"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ArticlePage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ArticlePage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalytics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalytics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Analytics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BrokenLinkBuilding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BrokenLinkBuilding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingStrategies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CategoryPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CategoryPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CommercialKeywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CommercialKeywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrimaryKeywords"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorsKeywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorsKeywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SecondaryKeywords"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IntentBasedKeywords"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContactPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContactPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Content -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Content"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContentAnalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContentAnalysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContentMarketing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContentMarketing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingStrategies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ConversionRateOptimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ConversionRateOptimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CoreWebVitals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CoreWebVitals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DirectoryLinks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DirectoryLinks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DynamicContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DynamicContent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Content"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EcommerceWebsite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EcommerceWebsite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EditorialLinks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EditorialLinks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EducationalWebsites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EducationalWebsites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EmailOutreach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EmailOutreach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingStrategies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EventPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EventPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ExternalAnchorText -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ExternalAnchorText">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AnchorText"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#FAQPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#FAQPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Follow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Follow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumAndCommentLinks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumAndCommentLinks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#GenericAnchorText -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#GenericAnchorText">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AnchorText"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#HomePage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#HomePage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IndexCoverageErrors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IndexCoverageErrors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IndexedPages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IndexedPages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InformationalKeywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InformationalKeywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrimaryKeywords"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InformationalWebsite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InformationalWebsite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IntentBasedKeywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IntentBasedKeywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SecondaryKeywords"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InternalAnchorText -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InternalAnchorText">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AnchorText"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InternationalSEO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InternationalSEO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordAnalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordAnalysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRanking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRanking"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRankings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRankings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LandingPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LandingPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingStrategies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingStrategies"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkTypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkTypes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalListing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalListing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalSEO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalSEO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalSearchRankingFactors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalSearchRankingFactors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalSEO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalizedContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalizedContent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Content"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LoginPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LoginPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#MobileSEO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#MobileSEO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalSEO"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SiteSpeedOptimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#MultimediaContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#MultimediaContent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Content"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#NavigationalKeywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#NavigationalKeywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrimaryKeywords"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#NoFollow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#NoFollow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OrganicTraffic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OrganicTraffic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OrganicTrafficConversions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OrganicTrafficConversions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PaidTraffic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PaidTraffic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PortfolioWebsites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PortfolioWebsites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrimaryKeywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrimaryKeywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SecondaryKeywords"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrivacyPolicyPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrivacyPolicyPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ProductPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ProductPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PromotionalLinks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PromotionalLinks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PublicRelations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PublicRelations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingStrategies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ReferringDomains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ReferringDomains">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#RichSnippets -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#RichSnippets">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SERPFeatures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SERPFeatures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SERPFeatures"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SearchResultPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SearchResultPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SearchVisibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SearchVisibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SecondaryKeywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SecondaryKeywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SiteSpeedOptimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SiteSpeedOptimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalSEO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialMediaLinks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialMediaLinks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialNetworkingWebsites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialNetworkingWebsites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#StaticContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#StaticContent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Content"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalAnalysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalAnalysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalSEO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalSEO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TextContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TextContent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Content"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TrafficDemographics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TrafficDemographics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Analytics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TransactionalKeywords -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TransactionalKeywords">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrimaryKeywords"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#UserExperienceOptimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#UserExperienceOptimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#UserGeneratedContent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#UserGeneratedContent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Content"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#VoiceSearchOptimization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#VoiceSearchOptimization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#WebsitePerformanceStatus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#WebsitePerformanceStatus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#404ErrorPage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#404ErrorPage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Daraz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Daraz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EcommerceWebsite"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazAdvertisingTraffic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazAdvertisingTraffic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <untitled-ontology-20:networks>4</untitled-ontology-20:networks>
+        <untitled-ontology-20:publishers>42</untitled-ontology-20:publishers>
+        <untitled-ontology-20:topPublishers>37 others : 19.7%</untitled-ontology-20:topPublishers>
+        <untitled-ontology-20:topPublishers>Aniwave.to : 8.69%</untitled-ontology-20:topPublishers>
+        <untitled-ontology-20:topPublishers>Poki.com : 3.45%</untitled-ontology-20:topPublishers>
+        <untitled-ontology-20:topPublishers>Start a trial : 57.46%</untitled-ontology-20:topPublishers>
+        <untitled-ontology-20:topPublishers>Start a trial : 8.69%</untitled-ontology-20:topPublishers>
+        <untitled-ontology-20:topPublishers>anix.to : 2.01%</untitled-ontology-20:topPublishers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazAgeDistribution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazAgeDistribution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TrafficDemographics"/>
+        <untitled-ontology-20:ageGroup>18-24 : 23.48%</untitled-ontology-20:ageGroup>
+        <untitled-ontology-20:ageGroup>25-34 : 35.97%</untitled-ontology-20:ageGroup>
+        <untitled-ontology-20:ageGroup>35-44 : 20.82%</untitled-ontology-20:ageGroup>
+        <untitled-ontology-20:ageGroup>45-54 : 8.39%</untitled-ontology-20:ageGroup>
+        <untitled-ontology-20:ageGroup>55-64 : 6.17%</untitled-ontology-20:ageGroup>
+        <untitled-ontology-20:ageGroup>65+  : 5.18%</untitled-ontology-20:ageGroup>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazAuthorityScore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazAuthorityScore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+        <untitled-ontology-20:authority rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</untitled-ontology-20:authority>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazBacklinkAnalytics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazBacklinkAnalytics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalytics"/>
+        <untitled-ontology-20:backlinkTypes>Form : less than 1%</untitled-ontology-20:backlinkTypes>
+        <untitled-ontology-20:backlinkTypes>Frame : less than 1%</untitled-ontology-20:backlinkTypes>
+        <untitled-ontology-20:backlinkTypes>Image : 28%</untitled-ontology-20:backlinkTypes>
+        <untitled-ontology-20:backlinkTypes>Text : 72%</untitled-ontology-20:backlinkTypes>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazBounceRate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazBounceRate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+        <untitled-ontology-20:bounceRate>13.7M</untitled-ontology-20:bounceRate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazCommercialKeywords -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazCommercialKeywords">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CommercialKeywords"/>
+        <untitled-ontology-20:keywordsCount>27K</untitled-ontology-20:keywordsCount>
+        <untitled-ontology-20:keywordsTraffic>4K</untitled-ontology-20:keywordsTraffic>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazFollowLinks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazFollowLinks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkTypes"/>
+        <untitled-ontology-20:links>Follow : 8.68M</untitled-ontology-20:links>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazGenderDistribution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazGenderDistribution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TrafficDemographics"/>
+        <untitled-ontology-20:genderSegment>Female : 23.6%</untitled-ontology-20:genderSegment>
+        <untitled-ontology-20:genderSegment>Male : 76.4%</untitled-ontology-20:genderSegment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazInformationalKeywords -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazInformationalKeywords">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InformationalKeywords"/>
+        <untitled-ontology-20:keywordsCount>42K</untitled-ontology-20:keywordsCount>
+        <untitled-ontology-20:keywordsTraffic>5.2K</untitled-ontology-20:keywordsTraffic>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazKeywords -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazKeywords">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+        <untitled-ontology-20:keywordsTraffic>17.9K</untitled-ontology-20:keywordsTraffic>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazNavigationalKeywords -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazNavigationalKeywords">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#NavigationalKeywords"/>
+        <untitled-ontology-20:keywordsCount>5K</untitled-ontology-20:keywordsCount>
+        <untitled-ontology-20:keywordsTraffic>31.4K</untitled-ontology-20:keywordsTraffic>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazNoFollowLinks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazNoFollowLinks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkTypes"/>
+        <untitled-ontology-20:links>NoFollow : 5.16M</untitled-ontology-20:links>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazOrganicCompetitors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazOrganicCompetitors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis"/>
+        <untitled-ontology-20:organicCompetitors>OLX.com.pk</untitled-ontology-20:organicCompetitors>
+        <untitled-ontology-20:organicCompetitors>Priceoye.pk</untitled-ontology-20:organicCompetitors>
+        <untitled-ontology-20:organicCompetitors>mega.pk</untitled-ontology-20:organicCompetitors>
+        <untitled-ontology-20:organicCompetitors>naheed.pk</untitled-ontology-20:organicCompetitors>
+        <untitled-ontology-20:organicCompetitors>propakistani.pk</untitled-ontology-20:organicCompetitors>
+        <untitled-ontology-20:organicCompetitors>servis.pk</untitled-ontology-20:organicCompetitors>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazOrganicSearchTraffic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazOrganicSearchTraffic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+        <untitled-ontology-20:searchTraffic>40.8K</untitled-ontology-20:searchTraffic>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazOrganicTraffic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazOrganicTraffic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OrganicTraffic"/>
+        <untitled-ontology-20:organicTraffic>99.96%</untitled-ontology-20:organicTraffic>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazPaidTraffic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazPaidTraffic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PaidTraffic"/>
+        <untitled-ontology-20:paidTraffic>0.04%</untitled-ontology-20:paidTraffic>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazReferralWebTraffic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazReferralWebTraffic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <untitled-ontology-20:referringWebsites>39</untitled-ontology-20:referringWebsites>
+        <untitled-ontology-20:topReferrals>33 Others : 24.99%</untitled-ontology-20:topReferrals>
+        <untitled-ontology-20:topReferrals>Start a trial : 41.94%</untitled-ontology-20:topReferrals>
+        <untitled-ontology-20:topReferrals>Start a trial : 8.31%</untitled-ontology-20:topReferrals>
+        <untitled-ontology-20:topReferrals>Start a trial : 9.31%</untitled-ontology-20:topReferrals>
+        <untitled-ontology-20:topReferrals>daraz.com : 3.74%</untitled-ontology-20:topReferrals>
+        <untitled-ontology-20:topReferrals>daraz.com.np : 4.99%</untitled-ontology-20:topReferrals>
+        <untitled-ontology-20:topReferrals>realme.com : 6.71%</untitled-ontology-20:topReferrals>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazReferringDomains -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazReferringDomains">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ReferringDomains"/>
+        <untitled-ontology-20:rootDomain>amco.xyz</untitled-ontology-20:rootDomain>
+        <untitled-ontology-20:rootDomain>arah.info</untitled-ontology-20:rootDomain>
+        <untitled-ontology-20:rootDomain>bidoonessma.com</untitled-ontology-20:rootDomain>
+        <untitled-ontology-20:rootDomain>idsitus.com</untitled-ontology-20:rootDomain>
+        <untitled-ontology-20:rootDomain>klga.xyz</untitled-ontology-20:rootDomain>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazSocialMediaTraffic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazSocialMediaTraffic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <untitled-ontology-20:networks>16</untitled-ontology-20:networks>
+        <untitled-ontology-20:socialNetworkDistribution>Facebook : 11.35%</untitled-ontology-20:socialNetworkDistribution>
+        <untitled-ontology-20:socialNetworkDistribution>Instagram : 8.12%</untitled-ontology-20:socialNetworkDistribution>
+        <untitled-ontology-20:socialNetworkDistribution>Others : 3.43%</untitled-ontology-20:socialNetworkDistribution>
+        <untitled-ontology-20:socialNetworkDistribution>Twitter : 5.24%</untitled-ontology-20:socialNetworkDistribution>
+        <untitled-ontology-20:socialNetworkDistribution>Whatsapp : 8.96%</untitled-ontology-20:socialNetworkDistribution>
+        <untitled-ontology-20:socialNetworkDistribution>Youtube : 62.9%</untitled-ontology-20:socialNetworkDistribution>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazTargetAudience -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazTargetAudience">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <untitled-ontology-20:topCategories>ComputerElectronics &amp;Technology</untitled-ontology-20:topCategories>
+        <untitled-ontology-20:topCategories>FileSharing&amp;Hosting</untitled-ontology-20:topCategories>
+        <untitled-ontology-20:topCategories>Programming&amp;DevlopersSoftware</untitled-ontology-20:topCategories>
+        <untitled-ontology-20:topCategories>VideoGames</untitled-ontology-20:topCategories>
+        <untitled-ontology-20:topTopics>Google</untitled-ontology-20:topTopics>
+        <untitled-ontology-20:topTopics>News</untitled-ontology-20:topTopics>
+        <untitled-ontology-20:topTopics>Online</untitled-ontology-20:topTopics>
+        <untitled-ontology-20:topTopics>Pakistan</untitled-ontology-20:topTopics>
+        <untitled-ontology-20:topTopics>Search</untitled-ontology-20:topTopics>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazTechnologyStack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazTechnologyStack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazTrafficSources -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazTrafficSources">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Traffic"/>
+        <untitled-ontology-20:trafficSources>Direct : 56.03%</untitled-ontology-20:trafficSources>
+        <untitled-ontology-20:trafficSources>Display : 1.75%</untitled-ontology-20:trafficSources>
+        <untitled-ontology-20:trafficSources>Mail : 0.97%</untitled-ontology-20:trafficSources>
+        <untitled-ontology-20:trafficSources>OrganicSearch : 36.99%</untitled-ontology-20:trafficSources>
+        <untitled-ontology-20:trafficSources>PaidSearch : 0.02%</untitled-ontology-20:trafficSources>
+        <untitled-ontology-20:trafficSources>Refferals : 0.95%</untitled-ontology-20:trafficSources>
+        <untitled-ontology-20:trafficSources>Social : 3.3%</untitled-ontology-20:trafficSources>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazTransactionalKeywords -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DarazTransactionalKeywords">
+        <rdf:type rdf:resource="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TransactionalKeywords"/>
+        <untitled-ontology-20:keywordsTraffic>63.2K</untitled-ontology-20:keywordsTraffic>
+        <untitled-ontology-20:keywordsTraffic>9.5K</untitled-ontology-20:keywordsTraffic>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AboutUsPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ArticlePage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CategoryPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContactPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EventPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#FAQPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#HomePage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LandingPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LoginPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PrivacyPolicyPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ProductPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SearchResultPage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#404ErrorPage"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Analytics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AnchorText"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Content"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRanking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingStrategies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SERPFeatures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Analytics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#AnchorText"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CompetitorAnalysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRanking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Keywords"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingStrategies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LinkBuildingTypes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PerformanceMetrics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SEO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SERPFeatures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Webpage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Wesbite"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BacklinkAnalysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContentAnalysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordAnalysis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalAnalysis"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#BrokenLinkBuilding"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ContentMarketing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EmailOutreach"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PublicRelations"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CommercialKeywords"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InformationalKeywords"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#NavigationalKeywords"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TransactionalKeywords"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ConversionRateOptimization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#CoreWebVitals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IndexCoverageErrors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#IndexedPages"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#KeywordRankings"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OrganicTrafficConversions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ReferringDomains"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SearchVisibility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#WebsitePerformanceStatus"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DirectoryLinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EditorialLinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#Follow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumAndCommentLinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#NoFollow"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PromotionalLinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialMediaLinks"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DirectoryLinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EditorialLinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ForumAndCommentLinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PromotionalLinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialMediaLinks"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#DynamicContent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalizedContent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#MultimediaContent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#StaticContent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TextContent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#UserGeneratedContent"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EcommerceWebsite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#EducationalWebsites"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InformationalWebsite"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#PortfolioWebsites"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#SocialNetworkingWebsites"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#ExternalAnchorText"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#GenericAnchorText"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InternalAnchorText"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#InternationalSEO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#LocalSEO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OffPageOptimization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#OnPageOptimization"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#TechnicalSEO"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/92307/ontologies/2023/11/untitled-ontology-20#VoiceSearchOptimization"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
